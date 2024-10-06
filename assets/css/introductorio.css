@@ -99,8 +99,8 @@ body {
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 768px) {
   /* Ajustar el tamaño de las fuentes */
-  .titulo {
-    font-size: 2rem;
+  .title_una {
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -110,7 +110,7 @@ body {
 
   /* Cambiar el diseño de la sección */
   .section {
-    padding: 3rem;
+    padding: 2rem;
     height: auto; /* Permitir que la altura sea flexible */
   }
 
@@ -129,6 +129,10 @@ body {
   .menu {
     flex-direction: column; /* Hacer que los enlaces del menú se apilen verticalmente */
     gap: 1rem;
+  }
+  .menu a {
+    font-size: 1rem;
+    padding: 10px;
   }
 
   /* Estilizar los enlaces de la actividad */

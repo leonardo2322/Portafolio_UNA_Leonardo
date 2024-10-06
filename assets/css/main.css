@@ -113,12 +113,12 @@ a {
 @media only screen and (max-width: 768px) {
   /* Ajustar el tamaño de las fuentes */
   .titulo {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .Urls_actividades {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   /* Cambiar el diseño de la sección */
@@ -146,7 +146,7 @@ a {
 
   /* Estilizar los enlaces de la actividad */
   .Urls_actividades a {
-    padding: 20px;
-    font-size: 1.2rem;
+    padding: 10px;
+    font-size: 1rem;
   }
 }
