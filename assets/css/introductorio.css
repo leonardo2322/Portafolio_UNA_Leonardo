@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monserrat", sans-serif;
+  font-family: "Lobster", cursive;
+  color: #fff;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 50px 100px;
+  background-color: #007aae;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid white; /* Borde */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.menu li {
+  margin: 3rem;
+  list-style: none;
+}
+.menu li a i {
+  margin-right: 20px;
+  font-size: 3rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.titulo-unidades {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 70px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+}
+
+.title_una {
+  margin: 100px;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 70px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+}
+
+.frames {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+  height: 800vh;
+}
+.Diagrama {
+  text-decoration: none;
+  padding: 10px 40px;
+  text-align: center;
+  background-color: #007aae;
+  border-radius: 5px;
+  border: 2px solid white; /* Borde */
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 50px;
+}
+.Diagrama i {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.back {
+  display: inline-block; /* Permite aplicar dimensiones */
+  position: fixed;
+  margin-left: 20px;
+  width: 40px; /* Ancho del círculo */
+  height: 40px; /* Alto del círculo */
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  text-align: center; /* Centrar texto */
+  line-height: 40px;
+  border-radius: 50%; /* Hacerlo circular */
+  /* Sin subrayado */
+  transition: background-color 0.3s; /* Transición suave */
+}
