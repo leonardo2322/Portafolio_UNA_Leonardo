@@ -149,4 +149,19 @@ a {
     padding: 10px;
     font-size: 1rem;
   }
+  .section h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+  }
+  .section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+  }
 }
