@@ -108,3 +108,45 @@ a {
 .section p {
   margin-bottom: 1rem;
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  /* Ajustar el tamaño de las fuentes */
+  .titulo {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Urls_actividades {
+    font-size: 1.5rem;
+  }
+
+  /* Cambiar el diseño de la sección */
+  .section {
+    padding: 3rem;
+    height: auto; /* Permitir que la altura sea flexible */
+  }
+
+  /* Ajustes para las imágenes en la sección parallax */
+  .parallax img {
+    width: 100%;
+    height: auto; /* Hacer que las imágenes se adapten mejor a pantallas más pequeñas */
+  }
+
+  /* Ajustar el menú si está activado */
+  header {
+    padding: 1rem;
+    flex-direction: column; /* Cambiar la orientación del header a columna */
+  }
+
+  .menu {
+    flex-direction: column; /* Hacer que los enlaces del menú se apilen verticalmente */
+    gap: 1rem;
+  }
+
+  /* Estilizar los enlaces de la actividad */
+  .Urls_actividades a {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+}
