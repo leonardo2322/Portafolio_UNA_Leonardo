@@ -135,8 +135,16 @@ body {
     gap: 1rem;
   }
   .menu a {
-    font-size: 1rem;
-    padding: 20px;
+    display: block; /* Asegura que el enlace ocupe todo el ancho disponible */
+    font-size: 1rem; /* Ajusta el tamaño de fuente para móviles */
+    padding: 10px 20px; /* Reduce el padding para evitar que se desborde */
+    width: 100%; /* Hace que el botón ocupe el 100% del ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding se incluya dentro del ancho total */
+    text-align: center; /
+  }
+  .menu a i {
+    margin-right: 10px; /* Ajusta el espacio entre el ícono y el texto */
+    font-size: 1.5rem; /* Ajusta el tamaño del ícono si es necesario */
   }
   .iframedoc {
     width: 600px;
@@ -156,4 +164,7 @@ body {
     font-size: 1.5rem; /* Ajusta el tamaño del ícono si es necesario */
   }
   /* Estilizar los enlaces de la actividad */
+  .titulo-unidades{
+    font-size: 2.3rem;
+  }
 }

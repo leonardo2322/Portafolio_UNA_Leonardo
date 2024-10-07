@@ -113,7 +113,7 @@ a {
 @media only screen and (max-width: 768px) {
   /* Ajustar el tamaño de las fuentes */
   .titulo {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
